@@ -11,12 +11,10 @@ while True:
     os.system('cls')
     if opc == 1:
         registrar_trabajador()
-
     elif opc == 2:
-        pass
+        listar_trabajador()
     elif opc==3:
         pass
     else:
-        print("GRACIAS ADIOS")
-        break
+        salir()
     time.sleep(3)               
