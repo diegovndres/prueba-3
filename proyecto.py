@@ -1,8 +1,6 @@
 import os, time
 from funciones import * 
 
-
-cargos = ("CEO","DESARROLLADOR","ANALISTA")
 while True:
     print("MENU TRABAJADORES")
     print("1. REGISTRAR TRABAJADORES")
